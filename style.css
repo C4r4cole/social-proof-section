@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+:root {
+  --color1: hsl(300, 43%, 22%);
+  --color2: hsl(333, 80%, 67%);
+  --color3: hsl(303, 10%, 53%);
+  --color4: hsl(300, 24%, 96%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/bg-pattern-top-desktop.svg) no-repeat,
+    url(./images/bg-pattern-bottom-desktop.svg) right no-repeat;
+}
+
+h1 {
+  color: var(--color1);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  color: white;
+}
+
+.punchline {
+  color: var(--color3);
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+main {
+  width: 80vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 48%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 48%;
+}
+
+.mainLeft {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mainRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.ratedContainer {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(247, 244, 247);
+  padding: 16px 50px 16px 0;
+  border-radius: 8px;
+}
+
+.rated {
+  color: var(--color1);
+  font-weight: 700;
+}
+
+.card {
+  width: 31%;
+  background: var(--color1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 15px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  border-radius: 8px;
+}
+
+.first {
+  margin-bottom: 50px;
+}
+
+.second {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.third {
+  margin-top: 50px;
+}
+
+.one {
+  margin-right: 40px;
+}
+
+.two {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.three {
+  margin-left: 40px;
+}
+
+.card-top {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.status {
+  color: var(--color2);
+  font-weight: 500;
+}
+
+.profilePic {
+  width: 20%;
+}
+
+.pic {
+  border-radius: 100%;
+  width: 70%;
+}
